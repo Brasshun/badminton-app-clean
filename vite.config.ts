@@ -4,16 +4,16 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/badminton-app-clean/',
+  base: './',
   build: {
     outDir: 'dist',
-    assetsDir: '',
+    assetsDir: 'assets',
     emptyOutDir: true,
     rollupOptions: {
       output: {
-        entryFileNames: `[name].js`,
-        chunkFileNames: `[name].js`,
-        assetFileNames: `[name].[ext]`
+        entryFileNames: `assets/[name].js`,
+        chunkFileNames: `assets/[name].js`,
+        assetFileNames: `assets/[name].[ext]`
       }
     }
   }
