@@ -1,3 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+
 # Logs
 logs
 *.log
@@ -7,6 +48,28 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/dist
+/build
+
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 node_modules
 dist
 dist-ssr
@@ -14,7 +77,7 @@ dist-ssr
 
 # Editor directories and files
 .vscode/*
-!.vscode/extensions.json
+.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
